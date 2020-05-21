@@ -56,13 +56,9 @@ body {
     position: absolute;
     bottom: 50%;
     left: 50%;
-    /* width: 10px;
-    height: 40%; */
-    background-color: black;
-    border: 1px solid #FFFFEE;
+    background-color: #414042;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    /* 10 radios */
     transform-origin: bottom;
     z-index: 10;
     transform: translateX(-50%) rotate(calc(var(--rotation) *1deg));
@@ -82,19 +78,19 @@ body {
 }
 
 .clock .hand.hour {
-    width: 8px;
-    height: 35%;
-    background-color: black;
+    width: 7px;
+    height: 36%;
+    background-color: #2f2e30;
 }
 
 .clock .hand.minute {
     width: 5px;
-    height: 38%;
-    background-color: black;
+    height: 41%;
+    background-color: #414042;
 }
 
 .clock .hand.second {
-    width: 2px;
+    width: 1px;
     height: 42%;
-    background-color: orange;
+    background-color: red;
 }
